@@ -3,6 +3,10 @@
 
 # COMMAND ----------
 
+hello world
+
+# COMMAND ----------
+
 deltaDf = spark.sql('SELECT * FROM delta.`/mnt/mcgen2/delta/OG/processedSensors` WHERE nameWell = "EnergisticsWell2016-A"')
 display(deltaDf)
 
